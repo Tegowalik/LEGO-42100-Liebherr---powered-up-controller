@@ -1,12 +1,23 @@
-# LEGO-42100-Liebherr---powered-up-controller
+# LEGO 42100 Liebherr R 9800 Excavator: powered-up app controller
 
 This powered up program makes it possible to control a LEGO 42100 Liebherr R 9800 Excavator by using the hand controller of the LEGO City trains. Two controller (https://www.lego.com/en-gb/product/remote-control-88010) are required for the program.
 
-How the controller works is shown in this TODO link video. The main idea is also shown in the picture below.
+How the controller works is shown in this TODO link video. 
+
+In order to control all 7 motors by using only 2 controller (you can't connect more than 4 powered up hubs/ controllers to the powered up app at the same time, so 2 controller are a upper limit for the Liebherr) two *control modes* are required. 
+
+## Control mode 1
+This control mode is used to control the lower Technic Smart Hub i. e. the driving and rotating the superstructure.
 
 TODO picture
 
+## Control mode 2
+This control mode is used to control the upper Technic Smart Hub i. e. the movement of the boom.
 
+TODO picture
+
+## Switching the modes
+The different modes can be switched by pressing the red buttons of a controller at the same time. The switching is indicated by the controller's LED. The *control mode* can be switched by using the upper controller. The *motor mode* can be switched by using the lower controller. Motor mode 1 (default) means that the motors are only moving as long as the buttons of the controller are pressed. Motor mode 2 means that after pressing a button the selected motor moves as long until another button has been pressed. The red button works as stop button.
 
 # Use the program yourself
 
@@ -26,4 +37,9 @@ TODO screenshot
 
 ## Actually use the program
 
-It is really important to connect the two technic smart hubs and two controller to the app in the correct order as shown below! 
+1. Make sure that you imported the program using one of the above options
+2. Open the powered-up app
+3. Connect the two Technic Smart Hubs and the two controller
+4. Make sure that the order of the connected hubs/ controllers are ordered like this:
+    TODO picture
+5. Run the program
