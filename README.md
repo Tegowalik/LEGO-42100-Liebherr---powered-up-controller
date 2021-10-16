@@ -39,5 +39,5 @@ TODO screenshot
 2. Open the powered-up app
 3. Connect the two Technic Smart Hubs and the two controller
 4. Make sure that the order of the connected hubs/ controllers are ordered like this:
-    TODO picture
+    ![connections](connections.png)
 5. Run the program
