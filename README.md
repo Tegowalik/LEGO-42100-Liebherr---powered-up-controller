@@ -9,17 +9,17 @@ In order to control all 7 motors by using only 2 controller (you can't connect m
 ## Control mode 1
 This control mode is used to control the lower Technic Smart Hub i. e. the driving and rotating the superstructure.
 
-![control mode 1](control mode 1.png)
+![control mode 1](control_mode_1.png)
 
 ## Control mode 2
 This control mode is used to control the upper Technic Smart Hub i. e. the movement of the boom/ excavator arm.
 
-![control mode 2](control mode 2.png)
+![control mode 2](control_mode_2.png)
 
 ## Switching the modes
 The different modes can be switched by pressing the red buttons of a controller at the same time. The switching is indicated by the controller's LED. The *control mode* can be switched by using the upper controller. The *motor mode* can be switched by using the lower controller. Motor mode 1 (default) means that the motors are only moving as long as the buttons of the controller are pressed. Motor mode 2 means that after pressing a button the selected motor moves as long until another button has been pressed. The red button works as stop button.
 
-![swtitch control mode](switch control mode.png)
+![swtitch control mode](switch_control_mode.png)
 
 # Use the program yourself
 
