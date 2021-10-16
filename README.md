@@ -44,4 +44,4 @@ This will take you definetly longer than the first option - but in doing so, you
 3. Connect the two Technic Smart Hubs and the two controller
 4. Make sure that the order of the connected hubs/ controllers are ordered like this:
     ![connections](connections.png)
-5. Run the program
+5. Run the program i. e. you need to press the green start button inside the powered up app. If the program runs, the controller's LED should change their color. 
