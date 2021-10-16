@@ -19,7 +19,7 @@ This control mode is used to control the upper Technic Smart Hub i. e. the movem
 ## Switching the modes
 The different modes can be switched by pressing the red buttons of a controller at the same time. The switching is indicated by the controller's LED. The *control mode* can be switched by using the upper controller. The *motor mode* can be switched by using the lower controller. Motor mode 1 (default) means that the motors are only moving as long as the buttons of the controller are pressed. Motor mode 2 means that after pressing a button the selected motor moves as long until another button has been pressed. The red button works as stop button.
 
-<img src="switch_control_mode.png" width="100" height="100">
+![switch control mode](switch_control_mode.png)
 
 # Use the program yourself
 
@@ -33,7 +33,7 @@ Follow this tutorial https://racingbrick.com/2020/01/how-to-export-import-a-proj
 
 This will take you definetly longer than the first option - but in doing so, you may understand how the program works and how you can adapt it to your personal requirements. 
 
-![powered up code](Liebherr_powered_up_program_raw.png =250x)
+<img src="Liebherr_powered_up_program_raw.png" width="1000" height="1000">
 
 ## Actually use the program
 
