@@ -19,7 +19,7 @@ This control mode is used to control the upper Technic Smart Hub i. e. the movem
 ## Switching the modes
 The different modes can be switched by pressing the red buttons of a controller at the same time. The switching is indicated by the controller's LED. The *control mode* can be switched by using the upper controller. The *motor mode* can be switched by using the lower controller. Motor mode 1 (default) means that the motors are only moving as long as the buttons of the controller are pressed. Motor mode 2 means that after pressing a button the selected motor moves as long until another button has been pressed. The red button works as stop button.
 
-![swtitch control mode](switch_control_mode.png)
+<img src="switch_control_mode.png" width="100" height="100">
 
 # Use the program yourself
 
