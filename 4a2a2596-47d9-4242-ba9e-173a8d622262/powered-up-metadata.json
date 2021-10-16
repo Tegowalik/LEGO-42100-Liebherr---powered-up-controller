@@ -1,0 +1,24 @@
+{
+  "Version": {
+    "Major": 1,
+    "Minor": 5,
+    "Build": 0,
+    "Revision": -1
+  },
+  "Author": "LEGO Systems A/S",
+  "ID": "4a2a2596-47d9-4242-ba9e-173a8d622262",
+  "Controller": "cc3656e8-d872-4f7b-997b-2b57ed87d12e",
+  "EntryCanvas": "Code",
+  "IsControllerEditingAllowed": true,
+  "IsCanvasChangeAllowed": true,
+  "IsHelpAvailable": true,
+  "IsRestartAllowed": true,
+  "LayoutType": "Snapping",
+  "IsPanningAllowed": false,
+  "Contexts": [
+    "freeplay"
+  ],
+  "ColorScheme": "default",
+  "Background": "default",
+  "Order": 0
+}

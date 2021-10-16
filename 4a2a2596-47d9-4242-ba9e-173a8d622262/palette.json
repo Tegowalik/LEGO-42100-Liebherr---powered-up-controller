@@ -1,0 +1,901 @@
+{
+  "Atomic": {
+    "TabDefinitions": [
+      {
+        "Name": "Flow",
+        "HexColor": "FlowControl"
+      },
+      {
+        "Name": "Sensing",
+        "HexColor": "Sensor"
+      },
+      {
+        "Name": "Motors",
+        "HexColor": "Hardware"
+      },
+      {
+        "Name": "Widgets",
+        "HexColor": "CompositeBlock2"
+      },
+      {
+        "Name": "SoundAndLight",
+        "HexColor": "Sound"
+      },
+      {
+        "Name": "Math",
+        "HexColor": "Variable"
+      },
+      {
+        "Name": "ModelBlock",
+        "HexColor": "CompositeBlockPaletteTab",
+        "ShowNewCompositeBlockButton": true,
+        "ShowNewSoundBlockButton": false
+      }
+    ],
+    "Contents": [
+      {
+        "Field": "Tag",
+        "Value": "developer",
+        "Tab": null
+      },
+      {
+        "Field": "Tag",
+        "Value": "hub66",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Motors/MotorStreamPower",
+        "Tab": "Motors"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Motors/MotorStreamServoSteering",
+        "Tab": "Motors"
+      },
+      {
+        "Field": "Tag",
+        "Value": "single-hub",
+        "Tab": null
+      },
+      {
+        "Field": "Tag",
+        "Value": "deprecated",
+        "Tab": [
+          {
+            "Field": "TypeName",
+            "Value": "VisionSensorSetColorAddressablePort",
+            "Tab": "SoundAndLight"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetOrientationAddressableHub",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltConfigureOrientationAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetAngleXAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetAngleYAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetOrientationAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": ".*",
+            "Tab": null
+          }
+        ]
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^StripParameter-",
+        "Tab": null
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^Parameter-",
+        "Tab": "ModelBlock"
+      },
+      {
+        "Field": "Category",
+        "Value": "Composite",
+        "Tab": [
+          {
+            "Field": "TypeName",
+            "Value": "^[^/]",
+            "Tab": {
+              "Special": "reverse",
+              "Tab": "ModelBlock"
+            }
+          }
+        ]
+      },
+      {
+        "Field": "Tag",
+        "Value": "obsolete",
+        "Tab": null
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Trigger",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Wait",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/CustomController/*",
+        "Tab": "Widgets"
+      },
+      {
+        "Field": "Tag",
+        "Value": "Level_3",
+        "Tab": [
+          {
+            "Field": "Tag",
+            "Value": "Category_LPF_1",
+            "Tab": "SoundAndLight"
+          },
+          {
+            "Field": "Tag",
+            "Value": "generic",
+            "Tab": [
+              {
+                "Field": "Tag",
+                "Value": "technic-motor",
+                "Tab": null
+              },
+              {
+                "Field": "Tag",
+                "Value": "motor",
+                "Tab": "Motors"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Flow",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "Start",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Event",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "WaitFor",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Loop",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "If",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Fork",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Interrupt",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "End",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Input",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "Accelerometer",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "OrientationAngle",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "proximity",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "angle",
+                "Tab": [
+                  {
+                    "Field": "Tag",
+                    "Value": "wedo",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "drivebase",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "*",
+                    "Tab": null
+                  }
+                ]
+              },
+              {
+                "Field": "Tag",
+                "Value": "orientation",
+                "Tab": [
+                  {
+                    "Field": "Tag",
+                    "Value": "wedo",
+                    "Tab": null
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "drivebase",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "*",
+                    "Tab": null
+                  }
+                ]
+              },
+              {
+                "Field": "Tag",
+                "Value": "Visionsensor_colorid",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "Visionsensor_reflection",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_LightAndSound",
+            "Tab": [
+              {
+                "Field": "Tag",
+                "Value": "light",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "ColorLight",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "freeplay",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Data",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "RandomOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "EqualOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "LessThanOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "GreaterThanOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "NotEqualOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "AndOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "OrOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "PlusOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "MinusOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "MultiplyOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "DivisionOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "AdvancedMath",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Atan2",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Exponent",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Max",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Min",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Modulo",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "VariableFetch$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "VariableStore$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "^LEGODeviceAddressAndPortSelection$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^/.*",
+        "Tab": null
+      }
+    ]
+  },
+  "Composite": {
+    "TabDefinitions": [
+      {
+        "Name": "Flow",
+        "HexColor": "FlowControl"
+      },
+      {
+        "Name": "Sensing",
+        "HexColor": "Sensor"
+      },
+      {
+        "Name": "Motors",
+        "HexColor": "Hardware"
+      },
+      {
+        "Name": "Widgets",
+        "HexColor": "CompositeBlock2"
+      },
+      {
+        "Name": "SoundAndLight",
+        "HexColor": "Sound"
+      },
+      {
+        "Name": "Math",
+        "HexColor": "Variable"
+      },
+      {
+        "Name": "ModelBlock",
+        "HexColor": "CompositeBlockPaletteTab",
+        "ShowNewCompositeBlockButton": true,
+        "ShowNewSoundBlockButton": false
+      }
+    ],
+    "Contents": [
+      {
+        "Field": "Tag",
+        "Value": "developer",
+        "Tab": null
+      },
+      {
+        "Field": "Tag",
+        "Value": "hub66",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Motors/MotorStreamPower",
+        "Tab": "Motors"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Motors/MotorStreamServoSteering",
+        "Tab": "Motors"
+      },
+      {
+        "Field": "Tag",
+        "Value": "single-hub",
+        "Tab": null
+      },
+      {
+        "Field": "Tag",
+        "Value": "deprecated",
+        "Tab": [
+          {
+            "Field": "TypeName",
+            "Value": "VisionSensorSetColorAddressablePort",
+            "Tab": "SoundAndLight"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetOrientationAddressableHub",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltConfigureOrientationAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetAngleXAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetAngleYAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": "DrivebaseTiltGetOrientationAddressablePort",
+            "Tab": "Sensing"
+          },
+          {
+            "Field": "TypeName",
+            "Value": ".*",
+            "Tab": null
+          }
+        ]
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^StripParameter-",
+        "Tab": null
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^Parameter-",
+        "Tab": "ModelBlock"
+      },
+      {
+        "Field": "Category",
+        "Value": "Composite",
+        "Tab": [
+          {
+            "Field": "TypeName",
+            "Value": "^[^/]",
+            "Tab": {
+              "Special": "reverse",
+              "Tab": "ModelBlock"
+            }
+          }
+        ]
+      },
+      {
+        "Field": "Tag",
+        "Value": "obsolete",
+        "Tab": null
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Trigger",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/Generic/Wait",
+        "Tab": "Sensing"
+      },
+      {
+        "Field": "TypeName",
+        "Value": "/CustomController/*",
+        "Tab": "Widgets"
+      },
+      {
+        "Field": "Tag",
+        "Value": "Level_3",
+        "Tab": [
+          {
+            "Field": "Tag",
+            "Value": "Category_LPF_1",
+            "Tab": "SoundAndLight"
+          },
+          {
+            "Field": "Tag",
+            "Value": "generic",
+            "Tab": [
+              {
+                "Field": "Tag",
+                "Value": "technic-motor",
+                "Tab": null
+              },
+              {
+                "Field": "Tag",
+                "Value": "motor",
+                "Tab": "Motors"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Flow",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "Start",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Event",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "WaitFor",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Loop",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "If",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Fork",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Interrupt",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "End",
+                "Tab": "Flow"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Input",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "Accelerometer",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "OrientationAngle",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "proximity",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "angle",
+                "Tab": [
+                  {
+                    "Field": "Tag",
+                    "Value": "wedo",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "drivebase",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "*",
+                    "Tab": null
+                  }
+                ]
+              },
+              {
+                "Field": "Tag",
+                "Value": "orientation",
+                "Tab": [
+                  {
+                    "Field": "Tag",
+                    "Value": "wedo",
+                    "Tab": null
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "drivebase",
+                    "Tab": "Sensing"
+                  },
+                  {
+                    "Field": "Tag",
+                    "Value": "*",
+                    "Tab": null
+                  }
+                ]
+              },
+              {
+                "Field": "Tag",
+                "Value": "Visionsensor_colorid",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "Visionsensor_reflection",
+                "Tab": "Sensing"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_LightAndSound",
+            "Tab": [
+              {
+                "Field": "Tag",
+                "Value": "light",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "ColorLight",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "freeplay",
+                "Tab": "SoundAndLight"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          },
+          {
+            "Field": "Tag",
+            "Value": "Category_Data",
+            "Tab": [
+              {
+                "Field": "TypeName",
+                "Value": "RandomOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "EqualOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "LessThanOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "GreaterThanOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "NotEqualOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "AndOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "OrOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "PlusOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "MinusOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "MultiplyOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "DivisionOperator",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "AdvancedMath",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Atan2",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Exponent",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Max",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Min",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "Modulo",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "VariableFetch$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "VariableStore$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "TypeName",
+                "Value": "^LEGODeviceAddressAndPortSelection$",
+                "Tab": "Math"
+              },
+              {
+                "Field": "Tag",
+                "Value": "*",
+                "Tab": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Field": "TypeName",
+        "Value": "^/.*",
+        "Tab": null
+      }
+    ]
+  },
+  "AllowCompositeBlockEditing": true
+}
