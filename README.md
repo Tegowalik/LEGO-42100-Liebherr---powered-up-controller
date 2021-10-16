@@ -33,7 +33,7 @@ Follow this tutorial https://racingbrick.com/2020/01/how-to-export-import-a-proj
 
 This will take you definetly longer than the first option - but in doing so, you may understand how the program works and how you can adapt it to your personal requirements. 
 
-TODO screenshot
+![powered up code](Liebherr_powered_up_program_raw.png =250x)
 
 ## Actually use the program
 
