@@ -2,7 +2,7 @@
 
 This powered up program makes it possible to control a LEGO 42100 Liebherr R 9800 Excavator by using the hand controller of the LEGO City trains. Two controller (https://www.lego.com/en-gb/product/remote-control-88010) are required for the program.
 
-How the controller works is shown in this TODO link video. 
+How the controller works is shown in this video https://www.youtube.com/watch?v=DjFeJ_h1GU4. 
 
 In order to control all 7 motors by using only 2 controller (you can't connect more than 4 powered up hubs/ controllers to the powered up app at the same time, so 2 controller are a upper limit for the Liebherr) two *control modes* are required. 
 
