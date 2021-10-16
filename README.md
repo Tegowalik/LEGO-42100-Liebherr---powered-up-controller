@@ -29,6 +29,8 @@ Unfortunately the powered up app does not support importing and exporting of sel
 
 Follow this tutorial https://racingbrick.com/2020/01/how-to-export-import-a-project-in-the-powered-up-app-on-android/. Basically you need to copy this [file](4a2a2596-47d9-4242-ba9e-173a8d622262) (download the whole repository before) into the powered up folder of your phone, for android *Internal Storage/Android/data/com.lego.common.poweredup/files/Activities*.
 
+This method worked for me fine moving the program from an Adroid phone to an Android tablet. Not sure about the compatibility with apple devices, so if the first option doesn't work for you, try the 2nd option.
+
 ## Second option: Reprogram
 
 This will take you definetly longer than the first option - but in doing so, you may understand how the program works and how you can adapt it to your personal requirements. 
